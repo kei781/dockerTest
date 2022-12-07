@@ -7,7 +7,6 @@ import BoardUpdate from "../../components/board/BoardUpdate";
 
 const Board = ({ boardList, setBoardList }) => {
   const { lcategory, mcategory } = useParams();
-
   return (
     <>
       <Routes>
